@@ -10,7 +10,7 @@
     <title>Auto Inventory</title>
 </head>
 <body>
-    <div class="container m-4"></div>
+    <div class="container m-4">
      <h1 class="display text-center">
         <i class="fa fa-car text-primary"></i>
         Auto Inventory
@@ -38,14 +38,20 @@
             </div>
             <input type="submit" type="add car"
             class="btn btn-primary btn-block">
+         </form>
 
-
-
-
-
-
-
-        </form>
-
+         <table class="table table-striped mt-5">
+          <thead>
+            <tr>
+                <th>Make</th>
+                <th>Model</th>
+                <th>Year</th>
+                <th>Color</th>
+                <th></th>
+            </tr>
+         </thead>
+         <tbody id="auto-list"></tbody>
+        </table>
+    </div>
 </body>
 </html>
